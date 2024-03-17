@@ -14,6 +14,7 @@
 		CBFBE34E2BA700D000FB1A14 /* RecipeCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBE34D2BA700D000FB1A14 /* RecipeCollectionTests.swift */; };
 		CBFBE3582BA700D000FB1A14 /* RecipeCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBE3572BA700D000FB1A14 /* RecipeCollectionUITests.swift */; };
 		CBFBE35A2BA700D000FB1A14 /* RecipeCollectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBE3592BA700D000FB1A14 /* RecipeCollectionUITestsLaunchTests.swift */; };
+		CBFBE3692BA70F2500FB1A14 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBE3682BA70F2500FB1A14 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CBFBE3532BA700D000FB1A14 /* RecipeCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFBE3572BA700D000FB1A14 /* RecipeCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionUITests.swift; sourceTree = "<group>"; };
 		CBFBE3592BA700D000FB1A14 /* RecipeCollectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBFBE3682BA70F2500FB1A14 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,8 @@
 		CBFBE33B2BA700CD00FB1A14 /* RecipeCollection */ = {
 			isa = PBXGroup;
 			children = (
+				CBFBE3662BA70F0000FB1A14 /* View */,
 				CBFBE33C2BA700CD00FB1A14 /* RecipeCollectionApp.swift */,
-				CBFBE33E2BA700CD00FB1A14 /* ContentView.swift */,
 				CBFBE3402BA700D000FB1A14 /* Assets.xcassets */,
 				CBFBE3422BA700D000FB1A14 /* Preview Content */,
 			);
@@ -125,6 +127,23 @@
 				CBFBE3592BA700D000FB1A14 /* RecipeCollectionUITestsLaunchTests.swift */,
 			);
 			path = RecipeCollectionUITests;
+			sourceTree = "<group>";
+		};
+		CBFBE3662BA70F0000FB1A14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBE33E2BA700CD00FB1A14 /* ContentView.swift */,
+				CBFBE3672BA70F0600FB1A14 /* HomeView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBFBE3672BA70F0600FB1A14 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBE3682BA70F2500FB1A14 /* HomeView.swift */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFBE3692BA70F2500FB1A14 /* HomeView.swift in Sources */,
 				CBFBE33F2BA700CD00FB1A14 /* ContentView.swift in Sources */,
 				CBFBE33D2BA700CD00FB1A14 /* RecipeCollectionApp.swift in Sources */,
 			);
