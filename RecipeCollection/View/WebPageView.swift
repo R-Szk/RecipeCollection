@@ -29,5 +29,5 @@ struct WebPageView: UIViewRepresentable {
 }
 
 #Preview {
-    WebPageView(loadUrl: "https://www.google.com")
+    WebPageView(loadUrl: "https://google.com")
 }
